@@ -3,7 +3,6 @@
   "outputDirectory": "./",
   "installCommand": "npm install",
   "devCommand": "npm run serve",
-  "functions": {},
   "rewrites": [
     {
       "source": "/(.*)",
