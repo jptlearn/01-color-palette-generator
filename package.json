@@ -8,7 +8,9 @@
     "watch": "tsc --watch",
     "dev": "tsc --watch",
     "serve": "npx http-server -p 3000 -o",
-    "serve:detailed": "node server.js"
+    "serve:detailed": "node server.js",
+    "start": "npm run serve",
+    "deploy": "npm run build && npm run serve"
   },
   "keywords": [
     "typescript",

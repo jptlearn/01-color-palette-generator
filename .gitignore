@@ -8,6 +8,7 @@ dist/
 build/
 *.js.map
 
+
 # Environment variables
 .env
 .env.local
@@ -38,3 +39,7 @@ temp/
 # Docker
 .docker/
 docker-compose.override.yml
+
+# Others
+/alternative-structure.md
+.github/
