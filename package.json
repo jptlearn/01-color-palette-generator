@@ -1,0 +1,28 @@
+{
+  "name": "color-palette-generator",
+  "version": "1.0.0",
+  "description": "A TypeScript-based color palette generator with array logic and clipboard functionality",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "dev": "tsc --watch",
+    "serve": "npx http-server -p 3000 -o",
+    "serve:detailed": "node server.js"
+  },
+  "keywords": [
+    "typescript",
+    "color",
+    "palette",
+    "generator",
+    "dom"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "http-server": "^14.1.1",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  }
+}
