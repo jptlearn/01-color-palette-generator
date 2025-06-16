@@ -36,8 +36,6 @@ A modern, TypeScript-based color palette generator that creates beautiful, harmo
    npm run serve
    ```
 
-4. **Open in browser**: Navigate to `http://localhost:3000`
-
 ## Project Structure
 
 ```
@@ -102,18 +100,6 @@ npm run dev      # Development mode
 npm run serve    # Serve files locally
 ```
 
-## API Usage
-
-The generator is available globally for programmatic access:
-
-```javascript
-// Get current palette colors
-const colors = colorGenerator.getCurrentColors();
-
-// Generate palette from specific colors
-colorGenerator.generatePaletteFromColors(["#FF5733", "#33FF57", "#3357FF"]);
-```
-
 ## Contributing
 
 1. Fork the repository
@@ -121,7 +107,3 @@ colorGenerator.generatePaletteFromColors(["#FF5733", "#33FF57", "#3357FF"]);
 3. Make your changes with proper TypeScript typing
 4. Test thoroughly
 5. Submit a pull request
-
-## License
-
-MIT License - feel free to use in your projects!
